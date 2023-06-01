@@ -1,0 +1,28 @@
+body {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%;
+  color: $color-gray;
+}
+
+.heading--primary {
+  font-weight: 900;
+  font-size: 6.4rem;
+  line-height: 100%;
+  color: $color-dark;
+}
+.heading--secondary {
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 118%;
+  color: $color-dark;
+}
+.heading--tertiary {
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 162%;
+  color: $color-dark;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: $color-primary-dark;
+}
