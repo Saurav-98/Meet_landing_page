@@ -1,0 +1,31 @@
+/*
+Breakpoint Manager 
+- tab-port :  width >= 576px ~ 36em 
+- tab-land : width >= 896px ~ 56em
+- desktop : width >=  1184px ~ 75em
+- big-desktop: width >= 1984px ~124em
+
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == tab-port {
+    @media screen and (width >= 36em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media screen and (width >= 56em) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media screen and (width >= 74em) {
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media screen and (width >= 124em) {
+      @content;
+    }
+  }
+}

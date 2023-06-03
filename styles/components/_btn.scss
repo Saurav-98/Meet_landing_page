@@ -9,7 +9,7 @@
     border-radius: 3rem;
     transition: all 0.4s ease;
   }
-  &__primary {
+  &--primary {
     background-color: $color-primary-dark;
     color: $color--white;
 
@@ -21,7 +21,7 @@
       background-color: $color-primary-hover;
     }
   }
-  &__secondary {
+  &--secondary {
     background-color: $color-secondary-dark;
     color: $color--white;
 
